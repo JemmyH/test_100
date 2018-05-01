@@ -137,7 +137,22 @@ def test10():
 
 
 def test11():
-    pass
+    """
+    利用条件运算符的嵌套来完成此题：学习成绩>=90分的同学用A表示，60-89分之间的用B表示，60分以下的用C表示
+    """
+    score = int(input("请输入分数："))
+    if score >= 90:
+        print("A")
+    elif score >= 60:
+        print("B")
+    else:
+        print("C")
+
+
+def test12():
+    """
+    输入一行字符，分别统计出其中英文字母、空格、数字和其它字符的个数。
+    """
 
 
 if __name__ == '__main__':
